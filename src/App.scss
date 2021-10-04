@@ -7,6 +7,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  @include respond-to(xs) {
+    width: 60%;
+  }
   @include respond-to(sm) {
     width: 40%;
   }
