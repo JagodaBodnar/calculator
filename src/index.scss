@@ -1,0 +1,6 @@
+@import "./common_styles/variables.scss";
+body {
+  background: $violet;
+  background: linear-gradient(90deg, $violet 0%, $salmon 100%);
+  font-family: "Lato", sans-serif;
+}
